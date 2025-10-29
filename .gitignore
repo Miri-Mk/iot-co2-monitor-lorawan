@@ -1,0 +1,21 @@
+# --- Arduino / PlatformIO ---
+*.bin
+*.elf
+*.hex
+*.map
+*.pyc
+.pio
+.build/
+.vscode/
+.idea/
+.DS_Store
+
+# --- Lokale Dateien ---
+include/secrets.h
+*.log
+
+# --- System / Backup ---
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
