@@ -13,8 +13,11 @@ Das Projekt misst CO₂-Werte (und ggf. Temperatur- und Feuchtigkeitswerte) und 
 ## Aufbau
 
 iot-co2-monitor-lorawan/
+
 ├── src/ # Hauptprogramm (main.ino)
+
 ├── include/ # Header-Dateien (config.h, secrets_template.h)
+
 └── README.md # Projektübersicht und git-Workflow
 
 ---
@@ -35,26 +38,32 @@ iot-co2-monitor-lorawan/
 
 **Einmalig:**
 
-1. **Repository klonen**
+1. **In gewünschten lokalen Projektordner wechseln**
+
+```bash
+cd "C:\Users\<name>\git_Projekte"
+```
+
+2. **Repository klonen**
 
 ```bash
 git clone <repository-url>
 ```
 
-2. **In Projektverzeichnis wechseln**
+3. **In Projektverzeichnis wechseln**
 
 ```bash
 cd iot-co2-monitor-lorawan
 ```
 
-3. **Auf den Entwicklungszweig wechseln**
+4. **Auf den Entwicklungszweig wechseln**
 
 ```bash
 git checkout dev
 git pull origin dev
 ```
 
-4. **Feature-Branch vorbereiten**
+5. **Feature-Branch vorbereiten**
    Entweder neuen Branch anlegen (wenn man neues Thema beginnt):
 
 ```bash
@@ -75,7 +84,7 @@ git pull
 1. **In git-Ordner wechseln**
 
 ```bash
-cd "C:\Users\...\...\iot-co2-monitor-lorawan"
+cd "C:\Users\<Benutzername>\<git-Ordner>\iot-co2-monitor-lorawan"
 ```
 
 2. **In den jeweiligen Feature-Branch wechseln**
