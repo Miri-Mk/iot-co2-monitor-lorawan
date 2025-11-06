@@ -47,7 +47,7 @@ cd "C:\Users\<name>\git_Projekte"
 2. **Repository klonen**
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Miri-Mk/iot-co2-monitor-lorawan.git
 ```
 
 3. **In Projektverzeichnis wechseln**
