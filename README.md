@@ -31,8 +31,7 @@ iot-co2-monitor-lorawan/
 - **feature/** – Branches für einzelne Themen:
   - `feature/lora-connection` → LoRaWAN-Integration
   - `feature/sensor` → CO₂- und Umgebungssensoren
-  - `feature/display` → OLED-Ausgabe
-  - `feature/dashboard` → Datacake-Anbindung
+  - `feature/display-sound` → OLED- und Sound-Ausgabe
 
 ### Arbeitsablauf
 

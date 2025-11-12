@@ -7,8 +7,8 @@
 // Wegen .gitignore wird secrets.h-Datei nicht gepusht
 
 
-#ifndef SECRETS_TEMPLATE_H
-#define SECRETS_TEMPLATE_H
+#ifndef SECRETS_H
+#define SECRETS_H
 
 // ---------------------------
 // LoRaWAN-Zugangsdaten (OTAA)
